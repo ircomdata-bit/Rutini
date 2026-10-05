@@ -171,6 +171,23 @@
     color:var(--white);
   }
 
+
+  .badge-new{
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:8px;
+    padding:2px 9px;
+    font-family:'DM Sans', sans-serif;
+    font-size:0.68rem;
+    font-weight:700;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    color:var(--white);
+    background:var(--blue);
+    border-radius:100px;
+  }
+  .dash-card-new{ border-color:var(--blue-light); }
+
   /* ---------- Tutoriales panel ---------- */
   .tut-panel{
     border:1px solid var(--border);
@@ -278,12 +295,23 @@
 
         <div class="dash-list">
 
+          <a class="dash-card dash-card-new" href="https://app.powerbi.com/links/kKpIC9-pXm?ctid=83c8323d-05cf-4755-8df0-cb4a35cb9b80&pbi_source=linkShare" target="_blank" rel="noopener">
+            <div class="dash-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="14" height="6" rx="1.5"></rect><rect x="7" y="10" width="14" height="6" rx="1.5"></rect><rect x="3" y="16" width="14" height="4" rx="1.5"></rect></svg>
+            </div>
+            <div class="dash-body">
+              <div class="dash-title">Estadísticas Consolidadas Sudamérica 2.0 <span class="badge-new">Nuevo</span></div>
+              <div class="dash-desc">Versión mejorada del reporte consolidado. Convive con el formato anterior durante octubre.</div>
+            </div>
+            <div class="dash-cta">Abrir dashboard</div>
+          </a>
+
           <a class="dash-card" href="https://app.powerbi.com/links/L781nN8JDd?ctid=83c8323d-05cf-4755-8df0-cb4a35cb9b80&pbi_source=linkShare" target="_blank" rel="noopener">
             <div class="dash-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="14" height="6" rx="1.5"></rect><rect x="7" y="10" width="14" height="6" rx="1.5"></rect><rect x="3" y="16" width="14" height="4" rx="1.5"></rect></svg>
             </div>
             <div class="dash-body">
-              <div class="dash-title">Estadísticas Consolidadas Sudamérica</div>
+              <div class="dash-title">Estadísticas Consolidadas Sudamérica <span style="font-weight:500;color:var(--muted);font-size:0.85em">(formato anterior)</span></div>
               <div class="dash-desc">Exportaciones de vino por país, viña y período — vista consolidada del continente.</div>
             </div>
             <div class="dash-cta">Abrir dashboard</div>
